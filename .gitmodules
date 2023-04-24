@@ -1,0 +1,9 @@
+[submodule "retrieval-plugin"]
+	path = retrieval-plugin
+	url = https://github.com/openai/chatgpt-retrieval-plugin.git
+[submodule "askit-client"]
+	path = askit-client
+	url = https://github.com/lnu-askit/askit-client.git
+[submodule "api-and-scraper"]
+	path = api-and-scraper
+	url = https://github.com/lnu-askit/scraper.git

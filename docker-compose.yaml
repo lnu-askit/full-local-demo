@@ -13,7 +13,7 @@ services:
   api-and-scraper:
     container_name: api-and-scraper
     build:
-      context: ./scraper
+      context: ./api-and-scraper
       dockerfile: Dockerfile
     ports:
       - "5001:8080"
