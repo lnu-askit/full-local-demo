@@ -1,5 +1,5 @@
 services:
-  retreival-plugin:
+  retrieval-plugin:
     container_name: retrieval-plugin
     build:
       context: ./retrieval-plugin
@@ -19,8 +19,10 @@ services:
       - "5001:8080"
     environment:
       - PORT=8080
+      - NODE_ENV=development
     env_file:
       - .env
+      
   client:
     container_name: client
     depends_on:
